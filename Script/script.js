@@ -8,7 +8,7 @@ function toggleMenu() {
     hetMenu.classList.toggle('toonMenu');
 }
 
-// Hambruger button
+// Hamburger button
 var hamburgerBtn = document.querySelector('.hamburgericon');
 var menuOpen = false;
 
