@@ -458,7 +458,6 @@ HEADER MOBILE VERSION
         text-align: center;
         list-style-type: none;
         font-size: 25px;
-        font-family: 'urbanist', sans-serif;
         font-weight: bold;
         color: black;
     }
@@ -466,6 +465,8 @@ HEADER MOBILE VERSION
     .uitgeklapt_menu li a {
         color: white;
         text-decoration: none;
+        font-family: 'urbanist', sans-serif;
+
     }
 
     .uitgeklapt_menu ul li a:hover {
