@@ -1021,6 +1021,60 @@ SOLO PROJECTS + TEAM PROJECTS MOBILE
 EMOJIS PROJECT BLOCKS
 ************************************************************/
 /*#region*/
+/****emoji Urban Neighbor Community****/
+.emoji--urbanneighbor:before {
+    content:'👫🌳💭🏠';
+    font-size: 30px;
+}
+
+.emoji--urbanneighbor:hover:before {
+    content: '#UrbanNeighborCommunity';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--urbanneighbor:active:before {
+    content: '#UrbanNeighborCommunity';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--urbanneighbor:visited::after {
+    content: '#UrbanNeighborCommunity';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/****emoji Ommetje App****/
+.emoji--ommetje:before {
+    content:'🍃🚶👏🧠';
+    font-size: 30px;
+}
+
+.emoji--ommetje:hover:before {
+    content: '#Ommetje';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--ommetje:active:before {
+    content: '#Ommetje';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--ommetje:visited::after {
+    content: '#Ommetje';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 /****emoji matching app****/
 .emoji--matchingapp:before {
     content:'🐶🦮🏞🌲';
