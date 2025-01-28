@@ -1102,28 +1102,82 @@ EMOJIS PROJECT BLOCKS
     font-weight: 700;
 }
 
-/****emoji multidevice****/
-.emoji--multidevice:before {
-    content:'👨‍👩‍👧🟦💞👫';
+/****emoji Donrox****/
+.emoji--donrox:before {
+    content:'🦁🚗🛵🚲';
     font-size: 30px;
 }
 
-.emoji--multidevice:hover:before {
-    content: '#MultiDeviceScreenflow';
+.emoji--donrox:hover:before {
+    content: '#Donrox';
     font-family: "urbanist", sans-serif;
     font-size: 25px;
     font-weight: 700;
 }
 
-.emoji--multidevice:active:before {
-    content: '#MultiDeviceScreenflow';
+.emoji--donrox:active:before {
+    content: '#Donrox';
     font-family: "urbanist", sans-serif;
     font-size: 25px;
     font-weight: 700;
 }
 
-.emoji--multidevice:visited::after {
-    content: '#MultiDeviceScreenflow';
+.emoji--donrox:visited::after {
+    content: '#Donrox';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/****emoji Carddeck 'bromvliegeffect'****/
+.emoji--carddeckbromvliegeffect:before {
+    content:'🪰🖐💨🃏 ';
+    font-size: 30px;
+}
+
+.emoji--carddeckbromvliegeffect:hover:before {
+    content: '#Carddeckbromvliegeffect';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--carddeckbromvliegeffect:active:before {
+    content: '#Carddeckbromvliegeffect';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--carddeckbromvliegeffect:visited::after {
+    content: '#Carddeckbromvliegeffect';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/****emoji SUE Influence Framework****/
+.emoji--sueinfluenceframework:before {
+    content:'🧠🟥🚩🟩';
+    font-size: 30px;
+}
+
+.emoji--sueinfluenceframework:hover:before {
+    content: '#SUEinfluenceframework';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--sueinfluenceframework:active:before {
+    content: '#SUEinfluenceframework';
+    font-family: "urbanist", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.emoji--sueinfluenceframework:visited::after {
+    content: '#SUEinfluenceframework';
     font-family: "urbanist", sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -1585,9 +1639,12 @@ DETAILPAGES LAPTOP
     object-position:top!important;
 }
 
+/*Donrox, Carddeck, SUE influence framework*/
 .multideviceimg {
     object-position: top!important;
+    height: auto!important;
 }
+
 
 /*****Text******/
 .textdetailpage h2, .textdetailpage p {
@@ -1695,6 +1752,11 @@ PHOTOGRID DETAILPAGES LAPTOP + IPAD
     border-radius: 10px;
 }
 
+.gallery__item__multidevice--3 .gallery__item__multidevice--4 .grid__img {
+object-position: 1% 100%;
+}
+
+
 /*****Matchingapp: Placement images******/
 .gallery__item__matchingapp--1 {
     grid-column-start: 1;
@@ -1729,46 +1791,46 @@ PHOTOGRID DETAILPAGES LAPTOP + IPAD
     object-position: top; 
 }
 
-/*****Multidevice: Placement images******/
-.gallery__item__multidevice--1 {
+/*****Carddeck: Placement images******/
+.gallery__item__carddeck--1 {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.gallery__item__multidevice--1 img {
+.gallery__item__carddeck--1 img {
     object-position: top; 
 }
 
-.gallery__item__multidevice--2 {
+.gallery__item__carddeck--2 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.gallery__item__multidevice--2 img {
+.gallery__item__carddeck--2 img {
     object-position: top left; 
 }
 
-.gallery__item__multidevice--3 {
+.gallery__item__carddeck--3 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 10;
 }
-.gallery__item__matchingapp--3 img {
+.gallery__item__carddeck--3 img {
     object-position: top; 
 }
 
-.gallery__item__multidevice--4 {
+.gallery__item__carddeck--4 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 10;
     grid-row-end: 16;
 }
-.gallery__item__matchingapp--4 img {
+.gallery__item__carddeck--4 img {
     object-position: top; 
 }
 
@@ -1805,62 +1867,117 @@ PHOTOGRID DETAILPAGES LAPTOP + IPAD
     object-position: top left; 
 }
 
-/*****Jenny's adventure: Placement images******/
-.gallery__item__jenny--1 {
+/*****Donrox: Placement images******/
+.gallery__item__donrox--1 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 6;
 }
 
-.gallery__item__jenny--1 img {
-    object-position: top; 
+.gallery__item__donrox--1 img {
+    object-position: top left; 
 }
 
-.gallery__item__jenny--2 {
+.gallery__item__donrox--2 {
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 9;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 12;
 }
 
-.gallery__item__jenny--2 img {
+.gallery__item__donrox--2 img {
+    object-position: top left; 
+}
+
+.gallery__item__donrox--3 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+
+.gallery__item__donrox--3 img {
     object-position: center; 
 }
 
-.gallery__item__jenny--3 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-end: 9;
+.gallery__item__donrox--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 20;
 }
 
-.gallery__item__jenny--3 img {
+.gallery__item__donrox--4 img {
+    object-position: top; 
+}
+
+.gallery__item__donrox--5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 20;
+}
+
+.gallery__item__donrox--5 img {
+    object-position: top left; 
+}
+
+/*****SUE Influence Framework: Placement images******/
+.gallery__item__sueinfluenceframework--1 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item__sueinfluenceframework--1 img {
+    object-position: top left; 
+}
+
+.gallery__item__sueinfluenceframework--2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+
+.gallery__item__sueinfluenceframework--2 img {
+    object-position: top left; 
+}
+
+.gallery__item__sueinfluenceframework--3 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+
+.gallery__item__sueinfluenceframework--3 img {
     object-position: center; 
 }
 
-.gallery__item__jenny--4 {
+.gallery__item__sueinfluenceframework--4 {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 9;
-    grid-row-end: 16;
+    grid-row-start: 12;
+    grid-row-end: 20;
 }
 
-.gallery__item__jenny--4 img {
+.gallery__item__sueinfluenceframework--4 img {
     object-position: top; 
 }
 
-.gallery__item__jenny--5 {
+.gallery__item__sueinfluenceframework--5 {
     grid-column-start: 5;
     grid-column-end: 9;
-    grid-row-start: 9;
-    grid-row-end: 16;
+    grid-row-start: 12;
+    grid-row-end: 20;
 }
 
-.gallery__item__jenny--5 img {
-    object-position: top; 
+.gallery__item__sueinfluenceframework--5 img {
+    object-position: top left; 
 }
-
 
 /*****PawDoption: Placement images******/
 .gallery__item__pawdoption--1 {
